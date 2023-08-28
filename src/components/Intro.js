@@ -7,15 +7,7 @@ const Intro = () => {
       className="pr-6 py-8 pl-12 text-2xl sm:text-6xl w-11/12"
     >
       Hey, I am a software engineer & mobile developer,
-      <Typewriter
-        onInit={(typewriter) => {
-          typewriter
-            .typeString("I create modern applications.")
-            .pauseFor(500)
-            
-            .start();
-        }}
-      />
+      
     </h1>
   );
 };

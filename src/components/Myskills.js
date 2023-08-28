@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { SiReact, SiIonic, SiAngular, SiJava, SiSpring, SiFirebase, SiGit, SiJenkins, SiAdobexd, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { SiReact, SiIonic, SiAngular, SiSpring, SiFirebase, SiGit, SiJenkins, SiAdobexd, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import Overlay from "./Overlay";
 
 const Myskills = () => {
@@ -7,7 +7,6 @@ const Myskills = () => {
     { icon: <SiReact />, title: "React Native" },
     { icon: <SiIonic />, title: "Ionic" },
     { icon: <SiAngular />, title: "Angular" },
-    { icon: <SiJava />, title: "Java" },
     { icon: <SiSpring />, title: "Spring Boot" },
     { icon: <SiFirebase />, title: "Firebase" },
     { icon: <SiGit />, title: "Git" },
